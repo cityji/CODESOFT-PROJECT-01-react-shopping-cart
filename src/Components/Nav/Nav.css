@@ -1,0 +1,29 @@
+/* welcome image foxed */
+img{
+    /* max-width: 90vmin !important; */
+    height: auto; 
+    max-width: 700px;  
+    display: inline;
+    border-radius: .5rem;
+    /* margin: 0.1rem 2rem; */
+}
+/* logo size and position fixed */
+.logo{
+    margin-left:3.5rem;   
+    height: 4.3rem;
+    width:auto;
+}
+/* navbar text size fix */
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 1.3rem;
+}
+
+.me-auto {
+    margin: auto;
+  }
+  @media screen and (max-width:1000px) {
+    .navbar-toggler{
+        background:#fc468ce0;
+        margin-right: 2rem;
+    }
+  }

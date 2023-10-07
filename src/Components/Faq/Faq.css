@@ -1,0 +1,5 @@
+/* answer text unnecessary padding removed */
+.accordion-body {
+    padding-left:1rem !important;
+    text-align: justify !important;
+  }

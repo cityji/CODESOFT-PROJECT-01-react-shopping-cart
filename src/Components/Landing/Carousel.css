@@ -1,0 +1,22 @@
+.carousel-inner{
+height: auto;
+overflow: hidden;
+background: blueviolet;
+max-width:750px;
+margin: auto;
+}
+.carousel img{
+  max-width: 100%;
+  max-height: 90%;
+  margin:auto;
+}
+
+.carousel-caption, [data-bs-theme="dark"].carousel .carousel-caption {
+  color: #000;
+  background: #eb90e69c;
+  border-radius: 1rem;
+  color: black;
+  position: absolute;
+  bottom: -2rem;
+  /* padding:1rem; */
+}
