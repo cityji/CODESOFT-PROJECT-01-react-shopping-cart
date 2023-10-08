@@ -27,3 +27,12 @@ img{
         margin-right: 2rem;
     }
   }
+  @media screen and (max-width:400px) {
+    .navbar-toggler{
+        /* background:green; */
+        margin-right: 1rem;
+    }
+    .logo{
+        margin-left:1rem;   
+    }
+  }

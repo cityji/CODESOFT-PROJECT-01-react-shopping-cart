@@ -12,7 +12,7 @@ function BasicExample() {
             <img
               src={require('./logo.png')}
               className="d-inline-block align-top logo"
-              alt="KhannaRadio Best Wholesale/Retail Eletronics Shop in rewa"
+              alt="KhannaRadio Best Wholesale/Retail Electronics Shop in Rewa"
               />
           </Navbar.Brand>
         {/* </Container> */}
