@@ -16,16 +16,17 @@ img{
 
 .link {
     font-size: 1.5  rem;
-    padding:0.2rem .5rem;
+    /* padding:0.2rem .5rem; */
     /* margin-right: 1.5rem; */
     color: rgba(0, 0, 0, 1);
     font-weight: 600;
     border-radius: 1rem;
+    text-decoration: none;
 }
 .link:hover
 {
     color:  rgba(254, 85, 149, 1) !important;
-    background:  rgba(0, 0, 0, 1);
+    /* background:  rgba(0, 0, 0, 1); */
 } 
 
 .tagLine{

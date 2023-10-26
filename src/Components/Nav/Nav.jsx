@@ -10,6 +10,7 @@ function BasicExample() {
       {/* <Container> */}
           <Navbar.Brand className='ml-10 ' href="#ComeSoon">
             <img
+            style={{marginLeft:'3.5rem'}}
               src={require('./logo.png')}
               className="d-inline-block align-top logo"
               alt="KhannaRadio Best Wholesale/Retail Electronics Shop in Rewa"
