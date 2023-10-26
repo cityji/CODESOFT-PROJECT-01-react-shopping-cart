@@ -10,20 +10,31 @@ img{
 /* logo size and position fixed */
 .logo{
     margin-left:3.5rem;   
-    height: 4.3rem;
+    height: 3.3rem;
     width:auto;
+    /* box-shadow: rgba(254, 85, 149, 0.85) 0px 5px 15px; */
+    box-shadow:  rgba(254, 85, 149, 0.85) 0px 25px 20px -20px;
 }
 /* navbar text size fix */
 .navbar-expand-lg .navbar-nav .nav-link {
-    font-size: 1.3rem;
+    font-size: 1.5  rem;
+    padding:0.5rem 1rem;
+    margin-right: 1.5rem;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 600;
+    border-radius: 1rem;
 }
-
+.nav-link:hover
+{
+    color:  rgba(254, 85, 149, 1) !important;
+    background:  rgba(0, 0, 0, 1);
+}
 .me-auto {
     margin: auto;
   }
   @media screen and (max-width:1000px) {
     .navbar-toggler{
-        background:#fc468ce0;
+        background : rgba(254, 85, 149, 0.55);
         margin-right: 2rem;
     }
   }

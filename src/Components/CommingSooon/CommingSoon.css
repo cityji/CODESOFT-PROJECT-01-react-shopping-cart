@@ -1,0 +1,56 @@
+/* @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@400;600;900&display=swap'); */
+
+.PageCenter{
+    height: 75svh;
+    width:60svw;
+    padding: 1rem;
+    margin-left: 4.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background: hotpink; */
+    margin: 0 auto;
+}
+.tagLine{
+    /* font-family: MuseoModerno, sans-serif; */
+    font-weight: bold;
+    position: relative;
+    /* background: hotpink; */
+  
+}
+.tagLine::before{
+    content: "";
+    box-sizing: inherit;
+  display: block;
+  background-color: rgba(236, 0, 140, 0.6);
+  width:3rem;
+  height: .16rem;
+  position: absolute;
+  /* left: -2rem;
+  top: 25%; */
+  top: 50%;
+  left: -3.5rem;
+}
+
+.subText{
+    font-size: 2svmax;
+    color: rgba(0, 0, 0, 0.597);
+}
+.textAccent{
+    font-weight:600;
+    color:rgba(236, 0, 140, 0.6);
+}
+@media screen and (max-width:1000px) {
+    .PageCenter{
+        height: 60svh;
+        width: 90svw;
+    }
+    .tagLine::before{
+        /* left: 0; */
+        width: 1.5rem;
+        height: .1rem;
+        left: -2rem;
+    }
+}
+

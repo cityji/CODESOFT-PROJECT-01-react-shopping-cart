@@ -8,7 +8,7 @@ function BasicExample() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       {/* <Container> */}
-          <Navbar.Brand className='ml-10 ' href="#home">
+          <Navbar.Brand className='ml-10 ' href="#ComeSoon">
             <img
               src={require('./logo.png')}
               className="d-inline-block align-top logo"
@@ -20,9 +20,9 @@ function BasicExample() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#ComeSoon">Home</Nav.Link>
-            <Nav.Link href="#ComeSoon">About Us</Nav.Link>
-            <Nav.Link href="#FAQ">FAQ</Nav.Link>
+            <Nav.Link className='marg-left-3' href="#ComeSoon">Home</Nav.Link>
+            <Nav.Link className='marg-left-3' href="#ComeSoon">About Us</Nav.Link>
+            <Nav.Link className='marg-left-3' href="#FAQ">FAQ</Nav.Link>
             <NavDropdown title="More" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Login</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Contact Us</NavDropdown.Item>

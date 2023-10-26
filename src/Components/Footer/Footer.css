@@ -1,0 +1,82 @@
+
+img{
+    /* max-width: 90vmin !important; */
+    height: auto; 
+    max-width: 700px;  
+    display: inline;
+    border-radius: .5rem;
+    /* margin: 0.1rem 2rem; */
+}
+/* logo size and position fixed */
+.logo{  
+    height: 3.3rem;
+    width:auto;
+    box-shadow:  rgba(254, 85, 149, 0.85) 0px 25px 20px -20px;
+}
+
+.link {
+    font-size: 1.5  rem;
+    padding:0.2rem .5rem;
+    /* margin-right: 1.5rem; */
+    color: rgba(0, 0, 0, 1);
+    font-weight: 600;
+    border-radius: 1rem;
+}
+.link:hover
+{
+    color:  rgba(254, 85, 149, 1) !important;
+    background:  rgba(0, 0, 0, 1);
+} 
+
+.tagLine{
+    /* font-family: MuseoModerno, sans-serif; */
+    font-weight: bold;
+    position: relative;
+    /* background: hotpink; */
+  
+}
+.tagLine::before{
+    content: "";
+    box-sizing: inherit;
+  display: block;
+  background-color: rgba(236, 0, 140, 0.6);
+  width:3rem;
+  height: .16rem;
+  position: absolute;
+  /* left: -2rem;
+  top: 25%; */
+  top: 50%;
+  left: -3.5rem;
+}
+
+.subText{
+    font-size: 2svmax;
+    color: rgba(0, 0, 0, 0.597);
+}
+.textAccent{
+    font-weight:600;
+    color:rgba(236, 0, 140, 0.6);
+}
+@media screen and (max-width:1000px) {
+    .PageCenter{
+        height: 60svh;
+        width: 90svw;
+    }
+    .tagLine::before{
+        /* left: 0; */
+        width: 1.5rem;
+        height: .1rem;
+        left: -2rem;
+    }
+    .d-flex {
+        display: flex !important;
+        gap: 1rem;
+        align-items: center !important;
+        justify-content: center !important;
+}
+.smMaxWidthZero{
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    max-width: 90svw !important;
+}
+}
